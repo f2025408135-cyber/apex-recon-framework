@@ -874,3 +874,24 @@ Recon does not end when exploitation begins. Every finding reshapes your recon. 
 Your initial recon map is a hypothesis. Every finding is evidence that updates the hypothesis. The hunters winning in 2026 treat recon as a continuous feedback loop, not a one-time phase.
 
 The architecture of inevitability is this: if you map the complete surface, enumerate every assumption, apply AI-augmented analysis at every leverage point, and compound each finding back into new recon — a critical finding is not lucky. It is the logical outcome of a complete methodology.
+
+---
+
+# BUILD INSTRUCTIONS
+
+The APEX RECON FRAMEWORK is fundamentally a methodology and documentation repository. As such, there is no source code to compile or binaries to build.
+
+To "build" or utilize this framework:
+
+1. **Read and Internalize**: Open `README.md` in any standard Markdown viewer (e.g., GitHub, VS Code, Obsidian) or text editor.
+2. **Tool Installation**: The framework relies on several external security tools. Ensure you have the following installed and in your `$PATH`:
+   - `subfinder`, `assetfinder`, `amass`
+   - `httpx`
+   - `gau`, `waybackurls`
+   - `katana`, `hakrawler`, `gospider`
+   - `ffuf`, `kr` (kiterunner)
+   - `arjun`
+   - `nuclei`
+   - `python3` (for scripts like `jwt_tool.py`, `SecretFinder.py`)
+   - `jq`, `gf`
+3. **Execution**: Follow the phases outlined in this document chronologically during your engagement.
